@@ -1,18 +1,71 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-card
+    style="margin-top: 20px;"
+    max-width="344"
+    class="mx-auto"
+  >
+    <v-list-item>
+      <v-list-item-avatar color="grey"></v-list-item-avatar>
+      <v-list-item-content>
+        <v-list-item-title class="headline">Our Changing Planet</v-list-item-title>
+        <v-list-item-subtitle>by Kurt Wagner</v-list-item-subtitle>
+      </v-list-item-content>
+    </v-list-item>
+
+    <v-img
+      src="https://cdn.vuetifyjs.com/images/cards/mountain.jpg"
+      height="194"
+    ></v-img>
+
+    <v-card-text>
+      Visit ten places on our planet that are undergoing the biggest changes today.
+    </v-card-text>
+
+    <v-card-actions>
+      <v-btn
+        text
+        color="deep-purple accent-4"
+        @click="test()"
+      >
+        Test
+      </v-btn>
+      <v-btn
+        text
+        color="deep-purple accent-4"
+      >
+        {{response}}
+      </v-btn>
+      <v-spacer></v-spacer>
+      <v-btn icon>
+        <v-icon>mdi-heart</v-icon>
+      </v-btn>
+      <v-btn icon>
+        <v-icon>mdi-share-variant</v-icon>
+      </v-btn>
+    </v-card-actions>
+  </v-card>
+    
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import firebase from 'firebase'
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
+  data() {
+    return {
+      response: 'Nothing'
+    }
+  },
+  methods: {
+    test() {
+      var test = firebase.functions().httpsCallable('test')
+      test('Hello').then(response => {
+        console.log(response)
+        this.response = response.data
+      }) 
+    }
   }
 }
 </script>
