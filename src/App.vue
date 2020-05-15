@@ -20,21 +20,25 @@
       <router-view></router-view>
     </v-content>
       <v-bottom-navigation
-    v-model="bottomNav"
-  >
-    <v-btn value="recent">
-      <span>Borrow</span>
-      <v-icon>mdi-history</v-icon>
-    </v-btn>
+        v-model="bottomNav"
+      >
+    <v-btn value="recent" @click="goToBorrow()">
+        <span>Borrow</span>
+        <v-icon>mdi-charity</v-icon>
 
+    </v-btn>
     <v-btn value="favorites">
       <span>Lend</span>
-      <v-icon>mdi-heart</v-icon>
+      <v-icon>mdi-currency-usd-circle</v-icon>
     </v-btn>
 
     <v-btn value="nearby">
-      <span>History</span>
+      <span>Borrow Requests</span>
       <v-icon>mdi-history</v-icon>
+    </v-btn>
+    <v-btn value="nearby">
+      <span>Portfolio</span>
+      <v-icon>mdi-diamond-stone</v-icon>
     </v-btn>
   </v-bottom-navigation>
   </v-app>
@@ -43,9 +47,15 @@
 import db from '@/firebase/init'
 export default {
   name: 'App',
+  data() {
+    return {
 
-  data: () => ({
-    //
-  }),
+    }
+  },
+  methods: {
+    goToBorrow() {
+      this.$router.push({name: 'Borrow'})
+    }
+  }
 };
 </script>
