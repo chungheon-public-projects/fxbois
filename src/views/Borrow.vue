@@ -1,13 +1,14 @@
 <template>
   <div>
     <v-card
-    style="margin-top: 20px;"
-    max-width="344"
+    style="margin-top:0px;"
+    max-width="100%"
     class="mx-auto"
+    elevation="0"
   >
     <v-list-item>
       <v-list-item-content>
-        <v-list-item-title class="headline">Borrow</v-list-item-title>
+        <v-list-item-title style="font-size: 40px;" class=""><b>Borrow</b></v-list-item-title>
         <v-list-item-subtitle>Enter the amount you want to borrow</v-list-item-subtitle>
       </v-list-item-content>
     </v-list-item>
@@ -21,12 +22,13 @@
         <div>
 
         </div>
-        <v-text-field
-        label="Solo"
-        placeholder="Loan Amount"
-        prepend-inner-icon="$"
-        solo
-        ></v-text-field>
+            <v-text-field
+            dark
+            label="Solo"
+            placeholder="Loan Amount"
+            prepend-inner-icon="$"
+            solo
+            ></v-text-field>
         <div>
 
         <v-card
