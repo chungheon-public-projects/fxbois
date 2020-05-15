@@ -1,32 +1,51 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <v-app-bar
+      app
+      color="primary"
+      dark
+    >
+      <div class="d-flex align-center">
+        <h2>FXBOIS</h2>
+      </div>
+
+      <v-spacer></v-spacer>
+
+      <v-btn text>
+        Press me!
+      </v-btn>
+    </v-app-bar>
+
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+      <v-bottom-navigation
+    v-model="bottomNav"
+  >
+    <v-btn value="recent">
+      <span>Borrow</span>
+      <v-icon>mdi-history</v-icon>
+    </v-btn>
+
+    <v-btn value="favorites">
+      <span>Lend</span>
+      <v-icon>mdi-heart</v-icon>
+    </v-btn>
+
+    <v-btn value="nearby">
+      <span>History</span>
+      <v-icon>mdi-history</v-icon>
+    </v-btn>
+  </v-bottom-navigation>
+  </v-app>
 </template>
+<script>
+import db from '@/firebase/init'
+export default {
+  name: 'App',
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+  data: () => ({
+    //
+  }),
+};
+</script>
