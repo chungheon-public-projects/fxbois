@@ -1,0 +1,166 @@
+<template>
+  <div>
+<v-card
+    style="margin-top:0px;"
+    max-width="100%"
+    class="mx-auto"
+    elevation="0"
+  >
+    <v-list-item>
+      <v-list-item-content>
+        <v-list-item-title style="font-size: 40px;" class=""><b>Lend</b></v-list-item-title>
+        <v-list-item-subtitle>Enter the amount you want to lend</v-list-item-subtitle>
+      </v-list-item-content>
+    </v-list-item>
+
+    <v-img
+      src="https://blog.payumoney.com/wp-content/uploads/2019/07/Payouts-cover-1280x720.png"
+      height="194"
+    ></v-img>
+
+    <v-card-text>
+        <div>
+
+        </div>
+        <v-text-field
+        dark
+        label="Solo"
+        placeholder="Lend Amount"
+        prepend-inner-icon="$"
+        solo
+        ></v-text-field>
+        <v-select
+            style="margin-top: -15px"
+          :items="investmentPerc"
+          label="Investment %"
+          solo
+          dark
+        ></v-select>
+
+<v-card
+    style="margin-top: -15px"
+    class="mx-auto"
+    max-width="600"
+    dark
+  >
+
+    <v-card-text>
+      <v-row
+        class="mb-4"
+        justify="space-between"
+      >
+        <v-col class="text-left">
+          <span
+            class="display-3 font-weight-light"
+            v-text="bpm"
+          ></span>
+          <span class="subheading font-weight-light mr-1">MONTHS</span>
+          <v-fade-transition>
+            <v-avatar
+              v-if="isPlaying"
+              :color="color"
+              :style="{
+                animationDuration: animationDuration
+              }"
+              class="mb-1 v-avatar--metronome"
+              size="12"
+            ></v-avatar>
+          </v-fade-transition>
+        </v-col>
+
+      </v-row>
+
+      <v-slider
+        v-model="bpm"
+        :color="color"
+        track-color="grey"
+        always-dirty
+        min="2"
+        max="36"
+      >
+        <template v-slot:prepend>
+          <v-icon
+            :color="color"
+            @click="decrement"
+          >
+            mdi-minus
+          </v-icon>
+        </template>
+
+        <template v-slot:append>
+          <v-icon
+            :color="color"
+            @click="increment"
+          >
+            mdi-plus
+          </v-icon>
+        </template>
+      </v-slider>
+    </v-card-text>
+  </v-card>
+  <br>
+  <v-btn block color="secondary" dark>Submit Lend</v-btn>
+    </v-card-text>
+    <v-card-actions>
+      <v-spacer></v-spacer>
+      <v-btn icon>
+        <v-icon>mdi-information</v-icon>
+      </v-btn>
+    </v-card-actions>
+  </v-card>
+  </div>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            bpm: 2,
+            interval: null,
+            isPlaying: false,
+            investmentPerc: ['2%','3%','4%','5%',]
+        }
+    },
+    computed: {
+      color () {
+        if (this.bpm < 5) return 'indigo'
+        if (this.bpm < 10) return 'teal'
+        if (this.bpm < 15) return 'green'
+        if (this.bpm < 25) return 'orange'
+        return 'red'
+      },
+      animationDuration () {
+        return `${60 / this.bpm}s`
+      },
+    },
+    methods: {
+      decrement () {
+        this.bpm--
+      },
+      increment () {
+        this.bpm++
+      },
+      toggle () {
+        this.isPlaying = !this.isPlaying
+      },
+    },
+}
+</script>
+
+<style>
+ @keyframes metronome-example {
+    from {
+      transform: scale(.5);
+    }
+
+    to {
+      transform: scale(1);
+    }
+  }
+
+  .v-avatar--metronome {
+    animation-name: metronome-example;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+</style>
