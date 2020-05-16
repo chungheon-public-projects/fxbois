@@ -3,6 +3,7 @@ const admin = require('firebase-admin');
 const axios = require('axios')
 const base64 = require('base-64');
 const fetch = require('node-fetch')
+const firebase = require('firebase')
 
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
@@ -11,11 +12,15 @@ const fetch = require('node-fetch')
 //  response.send("Hello from Firebase!");
 // });
 
+firebase.initializeApp({
+    projectId: "fxbois-razer"
+})
 
 admin.initializeApp({
     //databaseURL: "http://localhost:5678"
     
 })
+
     
 
 exports.test = functions.https.onCall((data, context) => {
@@ -24,15 +29,21 @@ exports.test = functions.https.onCall((data, context) => {
 })
 
 exports.insertloan = functions.https.onCall((data, context) => {
-    const db = admin.firestore()    
+    const db = firebase.firestore()    
     let loansRef = db.collection('loans')
-    let newDoc = loansRef.doc() 
-    return loansRef.add({
+    let newDoc = loansRef.doc()
+    const loanAmt = parseFloat(data.amt)
+    const intr = parseFloat(data.interest.replace('%',''))
+    const actualIntr = ((intr/100) * (parseFloat(data.tenor)/12)) * loanAmt
+    const monthlyRepayment = (loanAmt + actualIntr)/data.tenor
+    return newDoc.set({
         tenor:data.tenor,
-        amt: data.amt,
-        interest: parseInt(data.interest.replace('%','')),
+        amt: loanAmt,
+        interest: intr,
         borrower:'',
-        lender:''
+        lender:'',
+        monthlyRepayment: monthlyRepayment,
+        actualInterest: actualIntr
     }).then(saved => {
         return saved;
     }).catch(err => {
@@ -41,9 +52,56 @@ exports.insertloan = functions.https.onCall((data, context) => {
  })
 
  exports.gettoploans = functions.https.onCall((data, context) =>  {
-    const db = admin.firestore()
+    data.tenorSelected = 20
+    const db = firebase.firestore()
     let loansRef = db.collection('loans')
+    let topLoans = loansRef.orderBy('actualInterest').where('tenor', '<=', data.tenorSelected).get()
+    .then(snapshot => {console.log(snapshot)})
+    .catch(err => {return err})
+
+    
+
  })
+
+
+
+function createCurrentAccount(encodedKey) {
+    var inputJson = {}
+    var savingsAccount = 'savingsAccount'
+    var overdraftIntSettings = {
+        "interestRate": "5"
+    }
+    var interestSettings = {
+        "interestRate": "1.25"
+    }
+    inputJson[savingsAccount] = {
+        "name": "Digital Account",
+        "accountHolderType": "CLIENT",
+        "accountHolderKey": encodedKey,
+        "accountState": "APPROVED",
+        "productTypeKey": "8a8e878471bf59cf0171bf6979700440",
+        "accountType": "CURRENT_ACCOUNT",
+        "currencyCode": "SGD",
+        "allowOverdraft": "true",
+        "overdraftLimit": "100",
+        "overdraftInterestSettings": overdraftIntSettings,
+        "interestSettings": interestSettings
+    }
+
+    return fetch('https://razerhackathon.sandbox.mambu.com/api/savings', {
+        method: 'post',
+        body:    JSON.stringify(inputJson),
+        headers: {
+            'Authorization' : 'Basic VGVhbTc6cGFzczEzMEFDRTE5Qzg=',
+            'Content-Type': 'application/json' },
+    })
+    /* .then(res => res.json())
+    .then(json => {
+        console.log(json)
+        return json
+    }) */
+}
+
 
  exports.registerMambu = functions.https.onCall((data, context) => {
     let dataSend = {
@@ -84,66 +142,28 @@ exports.insertloan = functions.https.onCall((data, context) => {
       })
       .then(res => {return res.json()})
       .then(body => {
-        const db = admin.firestore()    
-        let userDB = db.collection('users')
-        const newUser = userDB.doc(body.id)
-        return newUser.set({            
-            firstName: body.firstName,
-            lastName: body.lastName,
-            mambuID: body.encodedKey
+        createCurrentAccount(body.encodedKey)
+        .then(res => res.json())
+        .then(bankAccount =>{
+            console.log(bankAccount)
+            const db = firebase.firestore()    
+            let userDB = db.collection('users')
+            const newUser = userDB.doc(body.id)
+            return newUser.set({            
+                firstName: body.firstName,
+                lastName: body.lastName,
+                mambuID: body.encodedKey,
+                mambuBankAcc: bankAccount.savingsAccount.encodedKey
+            }).then(user => {return user}) 
         })
-        console.log(body)
+               
+        //console.log(body)        
           
       }).catch(err => {console.log(err)})
-    // /console.log(JSON.stringify(dataSend))
-/* 
-     return axios({
-        method: 'post',
-        url: 'https://razerhackathon.sandbox.mambu.com/api/clients',
-        data: dataSend,
-        auth: {
-            username: 'Team7',
-            password: 'pass130ACE19C8'
-        },
-        headers: {
-            'Accept': 'application/vnd.mambu.v2+json',
-            'Content-Type': 'application/json',            
-            'Connection': 'keep-alive'
-        }, 
-        withCredentials: true           
-        }).then(resp => {
-          return resp.statusCode
-      }).catch(err => {
-          console.log(err)
-          return err
-        })  */
 
-        /* var options = {
-            method: 'POST',
-            uri: 'https://razerhackathon.sandbox.mambu.com/api/clients',
-            body: {
-                dataSend
-            },
-            auth: {
-                user: 'Team7',
-                pass: 'pass130ACE19C8'
-            },
-            headers: {
-                'Accept': 'application/vnd.mambu.v2+json',
-                'Content-Type': 'application/json',            
-                'Connection': 'keep-alive'
-            },
-            json: true // Automatically stringifies the body to JSON
-        }
-         
-        return rp(options)
-            .then(parsedBody => {
-                return parsedBody
-            })
-            .catch(err => {
-                return err
-            }); */
-       
+
 })
+
+
 
  
