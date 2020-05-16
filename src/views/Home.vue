@@ -55,6 +55,7 @@ export default {
       ],
     }
   },
+  
   methods: {
     test() {
       var test = firebase.functions().httpsCallable('test')

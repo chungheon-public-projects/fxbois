@@ -25,6 +25,7 @@
                 <p>{{ feedback }}</p>
                 <v-card-actions>
                     <v-spacer></v-spacer>
+                    <v-btn @click="goToSignUp" depressed >No Acc? Sign Up</v-btn>
                     <v-btn :loading="signingIn" type="submit" depressed >Sign In</v-btn>
                 </v-card-actions>
             </v-form>
@@ -47,6 +48,9 @@ export default {
         }
     },
     methods: {
+        goToSignUp() {
+            this.$router.push({name: 'SignUp'})
+        },
         onSubmit (evt) {
             evt.preventDefault()
             this.signIn()
@@ -76,5 +80,10 @@ export default {
 </script>
 
 <style>
-
+#video {
+    background-color: #000000;
+}
+#canvas {
+    display: none;
+}   
 </style>
