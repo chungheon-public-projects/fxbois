@@ -8,7 +8,7 @@
   >
     <v-list-item>
       <v-list-item-content>
-        <v-list-item-title style="font-size: 40px;" class=""><b>Lend</b></v-list-item-title>
+        <v-list-item-title id="headerStyle" style="font-size: 40px;" class=""><b>Lend</b></v-list-item-title>
         <v-list-item-subtitle>Enter the amount you want to lend</v-list-item-subtitle>
       </v-list-item-content>
     </v-list-item>
@@ -19,11 +19,7 @@
     ></v-img>
 
     <v-card-text>
-        <div>
-
-        </div>
         <v-text-field
-        dark
         label="Solo"
         placeholder="Lend Amount"
         prepend-inner-icon="$"
@@ -34,14 +30,13 @@
           :items="investmentPerc"
           label="Investment %"
           solo
-          dark
         ></v-select>
 
 <v-card
     style="margin-top: -15px"
     class="mx-auto"
     max-width="600"
-    dark
+    id="cardStyle"
   >
 
     <v-card-text>
@@ -51,10 +46,11 @@
       >
         <v-col class="text-left">
           <span
+            style="color: white"
             class="display-3 font-weight-light"
             v-text="bpm"
           ></span>
-          <span class="subheading font-weight-light mr-1">MONTHS</span>
+          <span style="color: white" class="subheading font-weight-light mr-1">MONTHS</span>
           <v-fade-transition>
             <v-avatar
               v-if="isPlaying"
@@ -99,7 +95,7 @@
     </v-card-text>
   </v-card>
   <br>
-  <v-btn block color="secondary" dark>Submit Lend</v-btn>
+  <v-btn block color="#E32D91" dark>Submit Lend</v-btn>
     </v-card-text>
     <v-card-actions>
       <v-spacer></v-spacer>
@@ -149,6 +145,14 @@ export default {
 </script>
 
 <style>
+#cardStyle {
+  background-image: linear-gradient(to bottom right, #8573D9, #E32D91);
+}
+#headerStyle {
+  background: -webkit-linear-gradient(#E32D91, #8573D9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
  @keyframes metronome-example {
     from {
       transform: scale(.5);

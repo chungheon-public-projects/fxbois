@@ -8,7 +8,7 @@
   >
     <v-list-item>
       <v-list-item-content>
-        <v-list-item-title style="font-size: 40px;" class=""><b>Borrow</b></v-list-item-title>
+        <v-list-item-title id="headerStyle" style="font-size: 40px;" class=""><b>Borrow</b></v-list-item-title>
         <v-list-item-subtitle>Enter the amount you want to borrow</v-list-item-subtitle>
       </v-list-item-content>
     </v-list-item>
@@ -19,11 +19,7 @@
     ></v-img>
 
     <v-card-text>
-        <div>
-
-        </div>
             <v-text-field
-            dark
             label="Solo"
             placeholder="Loan Amount"
             prepend-inner-icon="$"
@@ -32,7 +28,7 @@
         <div>
 
         <v-card
-            color="primary"
+            color="#8573D9"
             dark
           >
             <div class="d-flex flex-no-wrap justify-space-between">
@@ -77,7 +73,7 @@
           </v-card>
         <v-card
             style="margin-top: 10px;"
-            color="#1F7087"
+            color="#E32D91"
             dark
           >
             <div class="d-flex flex-no-wrap justify-space-between">
@@ -129,6 +125,14 @@ export default {
 }
 </script>
 
-<style>
 
+<style>
+#headerStyle {
+  background: -webkit-linear-gradient(#E32D91, #8573D9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#appContent {
+  background-image: linear-gradient(to bottom right, #4775E7, #4775E7 );
+}
 </style>
