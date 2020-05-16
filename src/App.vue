@@ -12,8 +12,8 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn text>
-        Press me!
+      <v-btn @click="signOut()" text>
+        Sign Out
       </v-btn>
     </v-app-bar>
 
@@ -21,6 +21,7 @@
       <router-view></router-view>
     </v-content>
       <v-bottom-navigation
+      v-if="getUser"
       fixed
         v-model="bottomNav"
       >
@@ -51,7 +52,7 @@
   </v-app>
 </template>
 <script>
-import db from '@/firebase/init'
+import db, {auth} from '@/firebase/init'
 export default {
   name: 'App',
   data() {
@@ -59,7 +60,30 @@ export default {
 
     }
   },
+  created() {
+    auth.onAuthStateChanged((user) => {
+      if(user) {
+        this.$store.commit('setUser', {
+            user: user,
+        })
+      }
+      console.log('User: ', user)
+    })
+  },
+  computed: {
+    getUser() {
+      return this.$store.getters.getUser
+    }
+  },
   methods: {
+    signOut() {
+      auth.signOut().then(() => {
+        this.$store.commit('setUser', {
+            user: null,
+        })
+        this.$router.push({ name: 'SignIn' })
+      }).catch(err => {})
+    },
     goToBorrow() {
       this.$router.push({name: 'Borrow'})
     },
