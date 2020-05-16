@@ -1,58 +1,39 @@
 <template>
   <div class="home">
-  <v-card
-    style="margin-top: 20px;"
-    max-width="344"
-    class="mx-auto"
+      <v-card
+      style="margin-top: 10px;"
+      max-width="400"
+    class="mx-auto text-center"
+    color="blue"
+    dark
   >
-    <v-list-item>
-      <v-list-item-avatar color="grey"></v-list-item-avatar>
-      <v-list-item-content>
-        <v-list-item-title class="headline">Our Changing Planet</v-list-item-title>
-        <v-list-item-subtitle>by Kurt Wagner</v-list-item-subtitle>
-      </v-list-item-content>
-    </v-list-item>
-
-    <v-img
-      src="https://cdn.vuetifyjs.com/images/cards/mountain.jpg"
-      height="194"
-    ></v-img>
-
     <v-card-text>
-      Visit ten places on our planet that are undergoing the biggest changes today.
+      <v-sheet color="rgba(0, 0, 0, .12)">
+        <v-sparkline
+          :value="value"
+          color="rgba(255, 255, 255, .7)"
+          height="100"
+          padding="24"
+          stroke-linecap="round"
+          smooth
+        >
+          <template v-slot:label="item">
+            ${{ item.value }}
+          </template>
+        </v-sparkline>
+      </v-sheet>
     </v-card-text>
 
-    <v-card-actions>
-      <v-btn
-        text
-        color="deep-purple accent-4"
-        @click="test()"
-      >
-        Test
-      </v-btn>
-      <v-btn
-        text
-        color="deep-purple accent-4"
-      >
-      <v-btn
-        text
-        color="deep-purple accent-4"
-        @click="loan()"
-      >
-        Loan Test
-      </v-btn>
-        {{response}}
-      </v-btn>
-      <v-spacer></v-spacer>
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
-      <v-btn icon>
-        <v-icon>mdi-share-variant</v-icon>
-      </v-btn>
+    <v-card-text>
+      <div class="display-1 font-weight-thin">Earnings 24h</div>
+    </v-card-text>
+
+    <v-divider></v-divider>
+
+    <v-card-actions class="justify-center">
+      <v-btn block text>Go to Report</v-btn>
     </v-card-actions>
   </v-card>
-    
   </div>
 </template>
 
@@ -62,7 +43,16 @@ export default {
   name: 'Home',
   data() {
     return {
-      response: 'Nothing'
+      response: 'Nothing',
+       value: [
+        423,
+        446,
+        675,
+        510,
+        590,
+        610,
+        760,
+      ],
     }
   },
   methods: {
