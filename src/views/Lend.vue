@@ -150,7 +150,7 @@ export default {
         this.isPlaying = !this.isPlaying
       },
       submitlend(){
-        console.log('submit lend was clicked')
+       
         if (window.location.href.indexOf("localhost") > -1) {
           firebase.functions().useFunctionsEmulator("http://localhost:5001")
         }
