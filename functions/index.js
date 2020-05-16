@@ -8,9 +8,12 @@ const admin = require('firebase-admin');
 //  response.send("Hello from Firebase!");
 // });
 
+
 admin.initializeApp({
     databaseURL: "http://localhost:5678"
+    
 })
+    
 
 exports.test = functions.https.onCall((data, context) => {
     console.log('Hello')
@@ -18,18 +21,15 @@ exports.test = functions.https.onCall((data, context) => {
 })
 
 exports.insertloan = functions.https.onCall((data, context) => {
-   
-
-    const db = admin.database()    
-    let loansRef = db.ref('fxbois-razer/loans/')
-    var newKey = loansRef.push().key
-    loansRef = loansRef.child(newKey)
+    const db = admin.firestore()    
+    let loansRef = db.collection('loans')
+    loansRef = loansRef.doc()
     loansRef.set({
         tenor:data.tenor,
         amt: data.amt,
         interest: data.interest    
     }).then(function(){
-        console.log(newKey);
+        console.log(loansRef);
     }).catch(err => {
         return err
     });

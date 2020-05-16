@@ -23,6 +23,7 @@
 
         </div>
         <v-text-field
+        v-model="invAmt"
         dark
         label="Solo"
         placeholder="Lend Amount"
@@ -30,7 +31,8 @@
         solo
         ></v-text-field>
         <v-select
-            style="margin-top: -15px"
+          v-model="invPerc"
+          style="margin-top: -15px"
           :items="investmentPerc"
           label="Investment %"
           solo
@@ -99,7 +101,9 @@
     </v-card-text>
   </v-card>
   <br>
-  <v-btn block color="secondary" dark>Submit Lend</v-btn>
+  <v-btn block color="secondary" dark @click="submitlend()">
+    Submit Lend
+    </v-btn>
     </v-card-text>
     <v-card-actions>
       <v-spacer></v-spacer>
@@ -112,6 +116,7 @@
 </template>
 
 <script>
+import firebase from 'firebase'
 export default {
     data() {
         return {
@@ -143,6 +148,19 @@ export default {
       toggle () {
         this.isPlaying = !this.isPlaying
       },
+      submitlend(){
+        console.log('submit lend was clicked')
+        if (window.location.href.indexOf("localhost") > -1) {
+          firebase.functions().useFunctionsEmulator("http://localhost:5001")
+        }
+        firebase.functions().httpsCallable('insertloan')({
+          tenor:this.bpm, 
+          interest:this.invPerc, 
+          amt:this.invAmt
+        }).then(response => {
+          console.log(response)
+        }) 
+      }
     },
 }
 </script>
