@@ -11,6 +11,7 @@
           <v-container>
             <v-form ref="form" @submit="onSubmit">
                 <v-text-field
+                    light
                     label="Email"
                     v-model="email"
                     required
@@ -85,5 +86,5 @@ export default {
 }
 #canvas {
     display: none;
-}   
+} 
 </style>
