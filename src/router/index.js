@@ -60,6 +60,7 @@ Vue.use(VueRouter)
     meta: {
       requiresAuth: false
     },
+  },
   {
     path: '/signup',
     name: 'SignUp',
