@@ -120,6 +120,7 @@ import firebase from 'firebase'
 export default {
     data() {
         return {
+            invPerc: '2%',
             bpm: 2,
             interval: null,
             isPlaying: false,
