@@ -42,7 +42,15 @@
             <v-img src="https://image.flaticon.com/icons/svg/2228/2228787.svg"></v-img>
             </v-avatar>
     </div>
-    <v-card-actions style="margin-top: -15px;">
+    <v-card-content>
+      <div  style="padding-right: 15px; padding-left: 15px;">
+        <v-progress-linear
+          value="60"
+          height="20"
+        ><strong>60%</strong></v-progress-linear>
+      </div>
+    </v-card-content>
+    <v-card-actions style="margin-top: 0px;">
         <v-spacer></v-spacer>
         <v-btn text>Repayment</v-btn>
     </v-card-actions>

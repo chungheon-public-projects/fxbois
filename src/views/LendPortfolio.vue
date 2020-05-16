@@ -31,7 +31,7 @@
               Balance
             </v-card-subtitle>
             </div>
-<v-btn x-large style="background-color: #E32D91; color: white; margin-top: 15px; margin-right: 10px;">Cash Out</v-btn>
+            <v-btn x-large style="background-color: #E32D91; color: white; margin-top: 15px; margin-right: 10px;">Cash Out</v-btn>
     </div>
     <v-card-actions style="margin-top: -15px;">
         <v-spacer></v-spacer>
@@ -63,7 +63,16 @@
             <v-img src="https://image.flaticon.com/icons/svg/2228/2228787.svg"></v-img>
             </v-avatar>
     </div>
-    <v-card-actions style="margin-top: -15px;">
+        <v-card-content>
+      <div  style="padding-right: 15px; padding-left: 15px;">
+        <v-progress-linear
+        color="amber"
+          value="80"
+          height="20"
+        ><strong>80%</strong></v-progress-linear>
+      </div>
+    </v-card-content>
+    <v-card-actions style="margin-top: 0px;">
         <v-spacer></v-spacer>
     </v-card-actions>
     </v-card>
