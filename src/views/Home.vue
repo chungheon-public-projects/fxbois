@@ -34,6 +34,13 @@
         text
         color="deep-purple accent-4"
       >
+      <v-btn
+        text
+        color="deep-purple accent-4"
+        @click="loan()"
+      >
+        Loan Test
+      </v-btn>
         {{response}}
       </v-btn>
       <v-spacer></v-spacer>
@@ -64,6 +71,13 @@ export default {
       test('Hello').then(response => {
         console.log(response)
         this.response = response.data
+      }) 
+    },
+    loan() {
+      firebase.functions().useFunctionsEmulator('http://localhost:5001');
+      var test = firebase.functions().httpsCallable('insertloan')
+      test({tenor:10, interest:0.05, amt:10000}).then(response => {
+        console.log(response)
       }) 
     }
   }

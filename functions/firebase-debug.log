@@ -1,0 +1,133 @@
+[debug] [2020-05-15T18:42:33.610Z] ----------------------------------------------------------------------
+[debug] [2020-05-15T18:42:33.612Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\Tony\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-05-15T18:42:33.612Z] CLI Version:   8.2.0
+[debug] [2020-05-15T18:42:33.612Z] Platform:      win32
+[debug] [2020-05-15T18:42:33.612Z] Node Version:  v12.16.3
+[debug] [2020-05-15T18:42:33.614Z] Time:          Sat May 16 2020 02:42:33 GMT+0800 (Singapore Standard Time)
+[debug] [2020-05-15T18:42:33.614Z] ----------------------------------------------------------------------
+[debug] [2020-05-15T18:42:33.614Z] 
+[debug] [2020-05-15T18:42:33.621Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-15T18:42:33.622Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, firestore, hosting
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project fxbois-razer. This may result in unexpected behavior.
+[debug] [2020-05-15T18:42:35.664Z] [hub] writing locator at C:\Users\Tony\AppData\Local\Temp\hub-fxbois-razer.json
+[info] +  hub: emulator hub started at http://localhost:4400
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5001
+[warn] !  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration.
+[debug] [2020-05-15T18:42:39.700Z] Ignoring unsupported arg: projectId
+[debug] [2020-05-15T18:42:39.700Z] Ignoring unsupported arg: auto_download
+[debug] [2020-05-15T18:42:39.700Z] Starting firestore emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\Tony\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.11.3.jar","--host","localhost","--port",5678,"--rules","D:\\wamp64\\www\\installment\\fxbois\\firestore.rules","--functions_emulator","localhost:5001"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false}
+[info] i  firestore: firestore emulator logging to firestore-debug.log
+[debug] [2020-05-15T18:42:42.033Z] API endpoint: http://localhost:5678
+[debug] [2020-05-15T18:42:42.034Z] 
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:5678
+
+Dev App Server is now running.
+
+
+[info] +  firestore: firestore emulator started at http://localhost:5678
+[info] i  firestore: For testing set FIRESTORE_EMULATOR_HOST=localhost:5678
+[debug] [2020-05-15T18:42:44.504Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fxbois-razer/webApps/-/config  
+ 
+[debug] [2020-05-15T18:42:45.423Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 15 May 2020 18:42:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000
+[info] +  hosting: hosting emulator started at http://localhost:5000
+[info] i  functions: Watching "D:\wamp64\www\installment\fxbois\functions" for Cloud Functions...
+[debug] [2020-05-15T18:42:45.482Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-15T18:42:45.483Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-15T18:42:45.483Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-15T18:42:45.483Z] [worker-~diagnostic~-4c0007c1-b43e-4124-895b-152ae8066519]: Assigning socketPath: \\?\pipe\D:\wamp64\www\installment\fxbois\functions\20672 
+[debug] [2020-05-15T18:42:45.483Z] [worker-~diagnostic~-4c0007c1-b43e-4124-895b-152ae8066519]: BUSY 
+[debug] [2020-05-15T18:42:45.912Z] [runtime-status] [20672] Functions runtime initialized. {"cwd":"D:\\wamp64\\www\\installment\\fxbois\\functions","node_version":"12.16.3"} 
+[debug] [2020-05-15T18:42:45.913Z] [runtime-status] [20672] Disabled runtime features: undefined 
+[debug] [2020-05-15T18:42:45.919Z] [runtime-status] [20672] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:45.921Z] [runtime-status] [20672] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:45.922Z] [runtime-status] [20672] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-15T18:42:45.964Z] [runtime-status] [20672] Checked functions.config() {"config":{}} 
+[debug] [2020-05-15T18:42:45.965Z] [runtime-status] [20672] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:45.966Z] [runtime-status] [20672] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:45.966Z] [runtime-status] [20672] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:45.967Z] [runtime-status] [20672] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[info] +  functions[test]: http function initialized (http://localhost:5001/fxbois-razer/us-central1/test).
+[info] +  functions[insertloan]: http function initialized (http://localhost:5001/fxbois-razer/us-central1/insertloan).
+[info] +  emulators: All emulators started, it is now safe to connect.
+[debug] [2020-05-15T18:42:45.971Z] [worker-~diagnostic~-4c0007c1-b43e-4124-895b-152ae8066519]: IDLE 
+[debug] [2020-05-15T18:42:57.001Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-05-15T18:42:57.001Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-05-15T18:42:57.001Z] Accepted request OPTIONS /fxbois-razer/us-central1/insertloan --> insertloan
+[debug] [2020-05-15T18:42:57.018Z] [worker-pool] addWorker(insertloan) 
+[debug] [2020-05-15T18:42:57.018Z] [worker-pool] Adding worker with key insertloan, total=1 
+[debug] [2020-05-15T18:42:57.018Z] [worker-pool] submitWork(triggerId=insertloan) 
+[debug] [2020-05-15T18:42:57.018Z] [worker-insertloan-33ad6092-2f70-4cd7-ab2b-6a544ec59cdb]: Assigning socketPath: \\?\pipe\D:\wamp64\www\installment\fxbois\functions\21332 
+[debug] [2020-05-15T18:42:57.018Z] [worker-insertloan-33ad6092-2f70-4cd7-ab2b-6a544ec59cdb]: BUSY 
+[debug] [2020-05-15T18:42:57.672Z] [runtime-status] [21332] Functions runtime initialized. {"cwd":"D:\\wamp64\\www\\installment\\fxbois\\functions","node_version":"12.16.3"} 
+[debug] [2020-05-15T18:42:57.675Z] [runtime-status] [21332] Disabled runtime features: undefined 
+[debug] [2020-05-15T18:42:57.683Z] [runtime-status] [21332] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:57.685Z] [runtime-status] [21332] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:57.688Z] [runtime-status] [21332] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-15T18:42:57.747Z] [runtime-status] [21332] Checked functions.config() {"config":{}} 
+[debug] [2020-05-15T18:42:57.748Z] [runtime-status] [21332] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:57.750Z] [runtime-status] [21332] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:57.751Z] [runtime-status] [21332] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:57.751Z] [runtime-status] [21332] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[debug] [2020-05-15T18:42:57.754Z] [runtime-status] [21332] Trigger "insertloan" has been found, beginning invocation! 
+[info] i  functions: Beginning execution of "insertloan"
+[debug] [2020-05-15T18:42:57.755Z] [runtime-status] [21332] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"insertloan","entryPoint":"insertloan"} 
+[debug] [2020-05-15T18:42:57.756Z] [runtime-status] [21332] Running insertloan in mode HTTPS 
+[debug] [2020-05-15T18:42:57.762Z] [runtime-status] [21332] Attempting to listen to socketPath: \\?\pipe\D:\wamp64\www\installment\fxbois\functions\21332 
+[debug] [2020-05-15T18:42:57.764Z] [functions] Runtime ready! Sending request! 
+[debug] [2020-05-15T18:42:57.775Z] [runtime-status] [21332] Ephemeral server handling OPTIONS request 
+[debug] [2020-05-15T18:42:57.781Z] [runtime-status] [21332] Ephemeral server survived. 
+[debug] [2020-05-15T18:42:57.783Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2020-05-15T18:42:57.783Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-05-15T18:42:57.783Z] Accepted request POST /fxbois-razer/us-central1/insertloan --> insertloan
+[debug] [2020-05-15T18:42:57.803Z] [worker-pool] addWorker(insertloan) 
+[debug] [2020-05-15T18:42:57.803Z] [worker-pool] Adding worker with key insertloan, total=2 
+[debug] [2020-05-15T18:42:57.803Z] [worker-pool] submitWork(triggerId=insertloan) 
+[debug] [2020-05-15T18:42:57.803Z] [worker-insertloan-66455dab-0d81-4c5e-af6e-ca54fbb1fefa]: Assigning socketPath: \\?\pipe\D:\wamp64\www\installment\fxbois\functions\7816 
+[debug] [2020-05-15T18:42:57.804Z] [worker-insertloan-66455dab-0d81-4c5e-af6e-ca54fbb1fefa]: BUSY 
+[info] i  functions: Finished "insertloan" in ~1s
+[debug] [2020-05-15T18:42:57.805Z] [worker-insertloan-33ad6092-2f70-4cd7-ab2b-6a544ec59cdb]: IDLE 
+[debug] [2020-05-15T18:42:57.805Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-05-15T18:42:58.474Z] [runtime-status] [7816] Functions runtime initialized. {"cwd":"D:\\wamp64\\www\\installment\\fxbois\\functions","node_version":"12.16.3"} 
+[debug] [2020-05-15T18:42:58.476Z] [runtime-status] [7816] Disabled runtime features: undefined 
+[debug] [2020-05-15T18:42:58.479Z] [runtime-status] [7816] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:58.483Z] [runtime-status] [7816] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:58.485Z] [runtime-status] [7816] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-15T18:42:58.522Z] [runtime-status] [7816] Checked functions.config() {"config":{}} 
+[debug] [2020-05-15T18:42:58.523Z] [runtime-status] [7816] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:58.524Z] [runtime-status] [7816] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:58.525Z] [runtime-status] [7816] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-15T18:42:58.525Z] [runtime-status] [7816] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.1","resolution":"D:\\wamp64\\www\\installment\\fxbois\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[debug] [2020-05-15T18:42:58.527Z] [runtime-status] [7816] Trigger "insertloan" has been found, beginning invocation! 
+[info] i  functions: Beginning execution of "insertloan"
+[debug] [2020-05-15T18:42:58.528Z] [runtime-status] [7816] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"insertloan","entryPoint":"insertloan"} 
+[debug] [2020-05-15T18:42:58.528Z] [runtime-status] [7816] Running insertloan in mode HTTPS 
+[debug] [2020-05-15T18:42:58.532Z] [runtime-status] [7816] Attempting to listen to socketPath: \\?\pipe\D:\wamp64\www\installment\fxbois\functions\7816 
+[debug] [2020-05-15T18:42:58.534Z] [functions] Runtime ready! Sending request! 
+[debug] [2020-05-15T18:42:58.555Z] [runtime-status] [7816] Ephemeral server handling POST request 
+[debug] [2020-05-15T18:42:58.557Z] [runtime-status] [7816] No callable functions auth found 
+[debug] [2020-05-15T18:42:58.559Z] [runtime-status] [7816] initializeApp(DEFAULT) {"databaseURL":"http://localhost:5678","storageBucket":"fxbois-razer.appspot.com","projectId":"fxbois-razer"} 
+[warn] !  functions: The Realtime Database emulator is not running, so calls to Realtime Database will affect production.
+[debug] [2020-05-15T18:42:58.640Z] [runtime-status] [7816] Ephemeral server survived. 
+[info] >  [2020-05-15T18:42:58.676Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."}  {"user":"[2020-05-15T18:42:58.676Z]  @firebase/database: FIREBASE WARNING: {\"code\":\"app/invalid-credential\",\"message\":\"Credential implementation provided to initializeApp() via the \\\"credential\\\" property failed to fetch a valid Google OAuth2 access token with the following error: \\\"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\\\".\"} "}
+[info] >  [2020-05-15T18:42:58.757Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."}  {"user":"[2020-05-15T18:42:58.757Z]  @firebase/database: FIREBASE WARNING: {\"code\":\"app/invalid-credential\",\"message\":\"Credential implementation provided to initializeApp() via the \\\"credential\\\" property failed to fetch a valid Google OAuth2 access token with the following error: \\\"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\\\".\"} "}
+[info] >  [2020-05-15T18:42:59.730Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."}  {"user":"[2020-05-15T18:42:59.730Z]  @firebase/database: FIREBASE WARNING: {\"code\":\"app/invalid-credential\",\"message\":\"Credential implementation provided to initializeApp() via the \\\"credential\\\" property failed to fetch a valid Google OAuth2 access token with the following error: \\\"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\\\".\"} "}
+[info] >  [2020-05-15T18:43:01.033Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."}  {"user":"[2020-05-15T18:43:01.033Z]  @firebase/database: FIREBASE WARNING: {\"code\":\"app/invalid-credential\",\"message\":\"Credential implementation provided to initializeApp() via the \\\"credential\\\" property failed to fetch a valid Google OAuth2 access token with the following error: \\\"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\\\".\"} "}
+[info] >  [2020-05-15T18:43:02.395Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."}  {"user":"[2020-05-15T18:43:02.395Z]  @firebase/database: FIREBASE WARNING: {\"code\":\"app/invalid-credential\",\"message\":\"Credential implementation provided to initializeApp() via the \\\"credential\\\" property failed to fetch a valid Google OAuth2 access token with the following error: \\\"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\\\".\"} "}
+[info] >  [2020-05-15T18:43:02.810Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."}  {"user":"[2020-05-15T18:43:02.810Z]  @firebase/database: FIREBASE WARNING: {\"code\":\"app/invalid-credential\",\"message\":\"Credential implementation provided to initializeApp() via the \\\"credential\\\" property failed to fetch a valid Google OAuth2 access token with the following error: \\\"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\\\".\"} "}
+[info] >  [2020-05-15T18:43:04.166Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."}  {"user":"[2020-05-15T18:43:04.166Z]  @firebase/database: FIREBASE WARNING: {\"code\":\"app/invalid-credential\",\"message\":\"Credential implementation provided to initializeApp() via the \\\"credential\\\" property failed to fetch a valid Google OAuth2 access token with the following error: \\\"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\\\".\"} "}
+[info] >  [2020-05-15T18:43:05.115Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."}  {"user":"[2020-05-15T18:43:05.115Z]  @firebase/database: FIREBASE WARNING: {\"code\":\"app/invalid-credential\",\"message\":\"Credential implementation provided to initializeApp() via the \\\"credential\\\" property failed to fetch a valid Google OAuth2 access token with the following error: \\\"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\\\".\"} "}
+[info] >  [2020-05-15T18:43:06.340Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."}  {"user":"[2020-05-15T18:43:06.340Z]  @firebase/database: FIREBASE WARNING: {\"code\":\"app/invalid-credential\",\"message\":\"Credential implementation provided to initializeApp() via the \\\"credential\\\" property failed to fetch a valid Google OAuth2 access token with the following error: \\\"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\\\".\"} "}
+[info] >  [2020-05-15T18:43:13.836Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."}  {"user":"[2020-05-15T18:43:13.836Z]  @firebase/database: FIREBASE WARNING: {\"code\":\"app/invalid-credential\",\"message\":\"Credential implementation provided to initializeApp() via the \\\"credential\\\" property failed to fetch a valid Google OAuth2 access token with the following error: \\\"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\\\".\"} "}
+[debug] [2020-05-15T18:43:16.732Z] [worker-insertloan-66455dab-0d81-4c5e-af6e-ca54fbb1fefa]: exited 
+[debug] [2020-05-15T18:43:16.732Z] [worker-insertloan-66455dab-0d81-4c5e-af6e-ca54fbb1fefa]: FINISHED 
+[debug] [2020-05-15T18:43:16.732Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-05-15T18:43:16.748Z] [worker-insertloan-33ad6092-2f70-4cd7-ab2b-6a544ec59cdb]: exited 
+[debug] [2020-05-15T18:43:16.748Z] [worker-insertloan-33ad6092-2f70-4cd7-ab2b-6a544ec59cdb]: FINISHED 
+[debug] [2020-05-15T18:43:16.771Z] [worker-~diagnostic~-4c0007c1-b43e-4124-895b-152ae8066519]: exited 
+[debug] [2020-05-15T18:43:16.771Z] [worker-~diagnostic~-4c0007c1-b43e-4124-895b-152ae8066519]: FINISHED 

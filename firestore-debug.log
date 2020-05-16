@@ -1,0 +1,1107 @@
+API endpoint: http://localhost:5678
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:5678
+
+Dev App Server is now running.
+
+May 16, 2020 2:48:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:48:31 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:48:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:48:31 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:48:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:48:32 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:48:34 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:48:34 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:48:35 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:48:35 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:48:35 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:48:35 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:48:37 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:48:37 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:48:39 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:48:39 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:48:44 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:48:44 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:48:50 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:48:50 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:48:57 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:48:57 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:49:07 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:49:07 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:49:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:49:17 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:49:28 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:49:28 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:49:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:49:53 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:49:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:49:53 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:49:54 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:49:54 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:49:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:49:55 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:49:56 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:49:56 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:49:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:49:59 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:49:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:49:59 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:04 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:04 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:09 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:09 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:11 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:11 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:20 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:29 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:29 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:31 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:31 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:33 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:33 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:33 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:33 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:34 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:34 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:35 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:35 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:37 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:37 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:37 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:37 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:38 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:38 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:45 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:45 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:51 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:50:54 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:50:54 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:51:08 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:51:08 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /favicon.ico
+May 16, 2020 2:51:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:51:12 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:51:18 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:51:18 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:51:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:51:22 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:51:27 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:51:27 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:22 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:22 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:23 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:23 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:24 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:27 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:27 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:30 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:31 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:34 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:34 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:40 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:40 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:46 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:46 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:53:50 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:53:50 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:54:03 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:54:03 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:54:25 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:54:25 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:54:48 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:54:48 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:25 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:25 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:25 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:25 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:27 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:27 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:28 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:28 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:28 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:28 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:30 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:31 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:34 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:34 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:37 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:37 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:44 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:44 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:55:56 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:55:56 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:24 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:24 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:25 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:25 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:28 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:28 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:29 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:29 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:31 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:35 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:35 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:35 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:35 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:40 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:40 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:43 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:43 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:43 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:43 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:59 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:59 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:56:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:56:59 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:57:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:57:01 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:57:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:57:01 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:57:04 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:57:04 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:57:05 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:57:05 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:57:09 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:57:09 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:57:09 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:57:09 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:57:16 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:57:16 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:57:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:57:24 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:57:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:57:32 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:57:43 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:57:43 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:57:54 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:57:54 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:22 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:38 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:38 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:38 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:39 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:39 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:41 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:41 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:44 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:44 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:46 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:46 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:47 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:47 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:48 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:48 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:48 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:48 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:48 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:48 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:49 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:49 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:50 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:50 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:50 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:50 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:52 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:52 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:53 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:58:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:58:59 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:01 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:06 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:06 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:09 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:09 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:12 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:15 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:15 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:19 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:19 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:20 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:38 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:39 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:39 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:47 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:47 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 2:59:56 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 2:59:56 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:00:09 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:00:09 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:00:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:00:51 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:00:52 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:00:52 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:00:52 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:00:52 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:00:54 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:00:54 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:00:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:00:55 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:00:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:00:55 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:00:56 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:00:56 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:00:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:00:59 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:01:02 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:01:02 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:01:08 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:01:08 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:10 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:10 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:10 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:10 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:11 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:11 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:12 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:14 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:14 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:17 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:19 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:19 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:20 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:31 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:35 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:35 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:37 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:37 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:03:50 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:03:50 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:04:07 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:04:07 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:04:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:04:17 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:04:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:04:38 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:04:39 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:04:39 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:04:40 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:04:40 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:04:41 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:04:41 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:04:41 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:04:41 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:04:42 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:04:42 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:04:42 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:04:42 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:04:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:04:46 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:21 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:21 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:21 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:21 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:23 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:23 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:23 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:23 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:23 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:23 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:24 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:24 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:25 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:25 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:25 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:25 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:28 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:28 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:29 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:29 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:30 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:30 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:31 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:32 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:33 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:33 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:35 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:35 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:37 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:37 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:45 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:45 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:46 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:47 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:47 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:48 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:48 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:51 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:53 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:05:58 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:05:58 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:06:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:06:01 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:06:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:06:12 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:06:16 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:06:16 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:06:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:06:17 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:06:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:06:24 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:06:58 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:06:58 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:07:02 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:07:02 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:07:48 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:07:48 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:08:07 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:08:07 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:08:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:08:20 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:09:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:09:51 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:09:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:09:51 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:09:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:09:51 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:09:52 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:09:52 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:09:52 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:09:52 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:09:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:09:55 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:09:56 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:09:56 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:09:58 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:09:58 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:10:04 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:10:04 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:10:06 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:10:06 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:10:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:10:12 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:10:14 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:10:14 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:10:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:10:24 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:10:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:10:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:10:43 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:10:43 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:11:00 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:11:00 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:11:39 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:11:39 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:11:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:11:59 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:11:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:11:59 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:00 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:00 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:01 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:02 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:02 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:05 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:05 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:06 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:06 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:07 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:07 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:08 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:08 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:10 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:10 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:16 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:16 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:55 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:55 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:55 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:55 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:56 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:56 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:56 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:56 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:12:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:12:59 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:04 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:04 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:06 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:06 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:09 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:09 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:11 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:11 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:22 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:22 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:23 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:23 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:24 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:24 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:25 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:25 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:28 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:28 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:30 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:31 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:35 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:35 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:41 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:41 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:49 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:49 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:13:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:13:59 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:14:14 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:14:14 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:14:16 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:14:16 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:14:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:14:51 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:15:15 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:15:15 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:12 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:13 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:13 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:13 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:13 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:15 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:15 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:17 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:23 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:23 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:23 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:23 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:24 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:25 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:25 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:25 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:25 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:25 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:25 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:25 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:25 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:26 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:27 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:27 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
+May 16, 2020 3:16:28 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+May 16, 2020 3:16:28 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /.ws?v=5&ns=
